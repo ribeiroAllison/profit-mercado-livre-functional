@@ -29,6 +29,7 @@ export default function Menu (props){
     const handleClickAnuncio = event => {
         let tipo = event.target.value;
         props.changeTipo(tipo);
+        
     }
 
     return(
